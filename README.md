@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Contentful CMS Setup:
+app expects that in Contentful CMS there is an articlePage content type with next fields: title, slug, articleDate and bodyText
+
+## Environment variables:
+create .env.local file and set next variables
+CONTENTFUL_SPACE_ID='TO_SET'
+CONTENTFUL_ACCESS_TOKEN='TO_SET'
+CONTENTFUL_PREVIEW_SECRET='preview'
+CONTENTFUL_PREVIEW_ACCESS_TOKEN='TO_SET'
+
 ## Getting Started
 
 First, run the development server:
